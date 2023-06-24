@@ -1,0 +1,22 @@
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    width: 300px; /* Spécifiez la largeur souhaitée */
+    height: 200px; /* Spécifiez la hauteur souhaitée */
+    margin: 10px;
+    text-align: center;
+  }
+
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour conserver le ratio d'aspect et couvrir la zone */
+  }
+
+  .caption {
+    margin-top: 5px;
+  }
